@@ -74,3 +74,13 @@ else:
     print("No player with that name found")    
         
         
+
+
+def main():
+    meow(5)
+
+def meow(n):
+    for i in range(n):
+        print("meow")
+        
+main()        
